@@ -1,0 +1,81 @@
+/*Global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3{
+    text-align: center;
+    padding: 10px 0;
+}
+p {
+    line-height: 2;
+    text-align: center;
+    padding: 10px 0;
+}
+a {
+    text-decoration: none;
+}
+
+/*utilities*/
+.bold-text {
+    font-weight: 700;
+}
+.container {
+    width: 80px;
+    margin: 0px 0px 0px 100px
+}
+/*header*/
+header {
+    background-color: rgb(255, 233, 31);
+    height: 100px;
+}
+.header-title h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 8px
+}
+.header-title h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.header-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-bottom: 0
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+}
+nav a {
+    color: white;
+    margin-right: 30px;
+    letter-spacing: 3px;
+}
+footer {
+    background-color: rgb(255, 233, 31);
+    font-size: 20px;
+
+}
+/*main*/
+
+/*bio*/
+ul li{
+    font-size: 18px;
+    margin: 50px;
+}
+ol li{
+    font-size: 10px;
+    margin: 40px;
+}
